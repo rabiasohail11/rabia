@@ -8,17 +8,18 @@
      <link rel="stylesheet" href="dashboard.css">
 </head>
 <body>
+    
     <div class="side-menu">
         <div class="brand-name"> <h1>Marke</h1>
         </div>
         <ul>
-            <li><i class="fa-solid fa-chart-column"></i>&nbsp;  Dashboard</li>
-            <li><i class="fa-solid fa-user-graduate"></i>&nbsp;  Schüler</li>
-            <li><i class="fa-solid fa-person-chalkboard"></i>&nbsp;  Lehrer</li>
-            <li><i class="fa-solid fa-school"></i>&nbsp;  Schulen</li>
-            <li><i class="fa-solid fa-hand-holding-dollar"></i>&nbsp;  Einnahmen</li>
-            <li><i class="fa-solid fa-circle-question"></i>&nbsp;  Hilfe</li>
-            <li><i class="fa-solid fa-gear"></i>&nbsp;  Einstellungen</li>
+            <li><i class="fa-solid fa-chart-column"></i>&nbsp; <span>Dashboard</span> </li>
+            <li><i class="fa-solid fa-user-graduate"></i>&nbsp; <span>Schüler</span> </li>
+            <li><i class="fa-solid fa-person-chalkboard"></i>&nbsp; <span>Lehrkräfte</span> </li>
+            <li><i class="fa-solid fa-school"></i>&nbsp; <span>Schulen</span> </li>
+            <li><i class="fa-solid fa-hand-holding-dollar"></i>&nbsp; <span>Einnahmen</span> </li>
+            <li><i class="fa-solid fa-circle-question"></i>&nbsp; <span>Hilfe</span> </li>
+            <li><i class="fa-solid fa-gear"></i>&nbsp; <span>Einstellungen</span> </li>
         </ul>
     </div>
     <div class="container">
@@ -42,7 +43,7 @@
             <div class="cards">
                 <div class="card">
                     <div class="box">
-                        <h1>30567</h1>
+                        <h1 class="above_heading">30567</h1>
                        <h3>Schüler</h3>
                     </div>
                     <div class="icon_case">
@@ -53,8 +54,8 @@
 
                  <div class="card">
                     <div class="box">
-                        <h1>800</h1>
-                       <h3>Lehrer</h3>
+                        <h1 class="above_heading">800</h1>
+                       <h3>Lehrkräfte</h3>
                     </div>
                     <div class="icon_case">
                         <img src="teacher.jpg" alt="" height="100px">
@@ -64,7 +65,7 @@
 
                  <div class="card">
                     <div class="box">
-                        <h1>16</h1>
+                        <h1 class="above_heading">16</h1>
                        <h3>Schulen</h3>
                     </div>
                     <div class="icon_case">
@@ -75,7 +76,7 @@
 
                  <div class="card">
                     <div class="box">
-                        <h1>7500000</h1>
+                        <h1 class="above_heading">7500000</h1>
                        <h3>Einnahmen</h3>
                     </div>
                     <div class="icon_case">
@@ -83,8 +84,113 @@
                     </div>
                 </div>
             </div>
-            <div class="content-2"></div>
+            <div class="content-2">
+                <div class="recent_payment">
+                    <div class="title">
+                        <H2>Aktuelle Zahlungen</H2>
+                        <a href="#">Alle anzeigen</a>
+                    </div>
+                    <table>
+                        <tr>
+                            <th>Name</th>
+                            <th>Schule</th>
+                            <th>Betrag</th>
+                            <th>Option</th>
+                        </tr>
+
+
+                        <tr>
+                            <td>Sana Ahmed</td>
+                            <td>Azam Garrison</td>
+                            <td>120$</td>
+                            <td><a href="#" class="btn">Anzeigen</a></td>
+                        </tr>
+                       
+
+                        <tr>
+                            <td>Ali Raza</td>
+                            <td>Alied School</td>
+                            <td>100$</td>
+                            <td><a href="#" class="btn">Anzeigen</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>Ahmed Latif</td>
+                            <td>FG-Republic</td>
+                            <td>80$</td>
+                            <td><a href="#" class="btn">Anzeigen</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>Raha Hameed</td>
+                            <td>American Alice</td>
+                            <td>210$</td>
+                            <td><a href="#" class="btn">Anzeigen</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>Maryam Abbas</td>
+                            <td>Education School</td>
+                            <td>210$</td>
+                            <td><a href="#" class="btn">Anzeigen</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>Insha Imran</td>
+                            <td>Primer School</td>
+                            <td>210$</td>
+                            <td><a href="#" class="btn">Anzeigen</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>Rabia Sohail</td>
+                            <td>DHA School</td>
+                            <td>210$</td>
+                            <td><a href="#" class="btn">Anzeigen</a></td>
+                        </tr>
+
+                    </table>
+                </div>
+                <div class="new_student">
+                    <div class="title">
+                        <H2>Neue Studierende</H2>
+                        <a href="#">Alle anzeigen</a>
+                    </div>
+                    <table>
+                        <tr>
+                            <th>Name</th>
+                            <th>Profil</th>
+                            <th>Option</th>
+                        </tr>
+
+                        <tr>
+                            <td><img src="stu.png" alt="" height="50px"></td>
+                            <td>Sana Ahmed</td>
+                            <td><img src="info.png" alt=""></td>
+                        </tr>
+
+                         <tr>
+                            <td><img src="user.png" alt="" height="50px"></td>
+                            <td>Ali Raza</td>
+                            <td><img src="info.png" alt=""></td>
+                        </tr>
+
+                         <tr>
+                            <td><img src="stu.png" alt="" height="50px"></td>
+                            <td>Raha Hameed</td>
+                            <td><img src="info.png" alt=""></td>
+                        </tr>
+
+                          <tr>
+                            <td><img src="user.png" alt="" height="50px"></td>
+                            <td>Ahmed Latif</td>
+                            <td><img src="info.png" alt=""></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
         </div>
     </div>
+    
 </body>
 </html>

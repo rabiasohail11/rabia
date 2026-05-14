@@ -12,6 +12,7 @@ min-height: 100vh;
 }
 
 
+
 a{
     text-decoration: none;
 }
@@ -24,6 +25,13 @@ li{
 
 h1, h2{
     color:#E8EDF2;
+}
+.above_heading{
+    color: #093C5D;
+}
+
+h3{
+    color: #3B7597;
 }
 
 .btn{
@@ -39,6 +47,35 @@ color: #f1f1f1;
 padding: 3px 8px;
 border: 2px solid #f1f1f1 ;
 }
+
+.title{
+display: flex;
+align-items: center;
+justify-content: space-around;
+color: #093C5D;
+padding: 15px 10px;
+border-bottom: 2px solid #3B7597;
+}
+
+.title H2{
+color: #093C5D;
+font-size: 30px;
+}
+
+.title a{
+   background: #093C5D;
+color: #f1f1f1; 
+text-decoration: none;
+padding: 5px 10px;
+text-align: center;
+}
+.title a:hover{
+   background: #f1f1f1;
+   color: #093C5D;
+    padding: 3px 8px;
+    border: 2px solid #093C5D ;
+} 
+
 
  /*  side-menu*/
 
@@ -98,6 +135,7 @@ border: 2px solid #f1f1f1 ;
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 1;
     
 }
 
@@ -191,3 +229,107 @@ width:50%;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   
 }
+
+.box{
+    padding-left: 10px;
+    padding-right: 5px;
+    justify-content: center;
+}
+
+.container .content .content-2{
+    min-height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.container .content .content-2 .recent_payment{
+    min-height: 50vh;
+    flex: 5;
+   background: #fff;
+   margin: 0 25px 25px 25px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   display: flex;
+   flex-direction: column;
+}
+
+.container .content .content-2 .new_student{
+    min-height: 50vh;
+    flex: 2;
+   background: #fff;
+   margin: 0 25px  ;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+   flex-direction: column;
+}
+
+/*  table */
+table{
+    padding: 10px;
+}
+
+th{
+    text-align: left;
+    padding: 8px;
+    font-size: 25px;
+    color: #093C5D;
+}
+
+td{
+    color: #3B7597;
+    text-align: left;
+    padding: 8px;
+    font-size: 20px;
+    color: #093C5D;
+}
+
+.container .content .content-2 .new_student table{
+
+}
+
+@media screen and (max-width:1050px) {
+    .side-menu li{
+        font-size: 18px;
+        
+    }
+}
+
+@media screen and (max-width:750px) {
+
+    .side-menu {
+    width: 25vw;
+    
+}
+    .side-menu li {
+        font-size: 14px;
+         padding: 6px 4px; 
+        }
+        
+
+    .container{
+    height: 300vh;
+      width:80vw;
+}
+
+.container .content .cards .card{
+   width: 250px;
+   height: 150px;
+
+   margin: 10px 50px;
+
+}
+
+.container .header{
+    width: 81vw; 
+}
+.container .content .content-2 .recent_payment{
+   
+   margin: 0 25px 25px 10px;
+ 
+}
+
+
+}
+
+
